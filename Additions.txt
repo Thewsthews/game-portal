@@ -1,0 +1,31 @@
+background-image: url('dg.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Makes the background image stay fixed during scroll */
+    background-position: center; /* Centers the background image */
+    color: #fff;
+
+//the above styles case handles the frame with which the smooth scroll below should be implemented
+
+const slidingSection = document.querySelector('.sliding-background');
+
+  const handleScroll = () => {
+    const sectionTop = slidingSection.getBoundingClientRect().top;
+    const viewportHeight = window.innerHeight;
+
+    // Check if the section is visible in the viewport
+    if (sectionTop < viewportHeight) {
+      slidingSection.classList.add('active');
+    }
+  };
+
+  // Listen for scroll events
+  window.addEventListener('scroll', handleScroll);
+
+//The above javascript block is to handle smooth scroll-into view of the background image
+
+<section class="sliding-background">
+    <!-- Background image will be set with CSS -->
+  </section>6 
+
+//The html code above provides the class through which css alterations can be implemented
