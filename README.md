@@ -6,7 +6,7 @@ Here’s a sample README file for your **game-explorer** project:
 
 Game Explorer is an interactive web application designed to help users discover, explore, and learn about various video games. It allows users to search for games, view detailed information, and explore recommendations based on their preferences.
 
-## Features
+## Features 📓
 
 - **Game Search**: Search for games by name, genre, or platform.
 - **Game Details**: View detailed information about a specific game, including descriptions, screenshots, and release dates.
