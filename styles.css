@@ -1,0 +1,158 @@
+:root{
+    --bg-primary: #f4f4f4;
+    --text-primary: #333;
+    --card-bg: #ffffff;
+    --hover-bg: #f0f0f0;
+    --star-color: #ddd;
+    --star-active-color: #ffc107;
+}
+
+[data-theme='dark']{
+    --bg-primary: #121212;
+    --text-primary: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --hover-bg: #2c2c2c;
+    --star-color: #555;
+    --star-active-color: #ffd700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.6;
+    background-image: url('dg.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+
+.game-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    padding-top: 30px;
+}
+.header{
+    font-size: 20px;
+    position: relative;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ddd;
+    text-align: center;
+}
+.tr{
+    text-align: center;
+    position: relative;
+}
+.footer{
+    font-size: 15px;
+    position: relative;
+    color: #555;
+    text-align: right;
+}
+
+.category{
+    width: 45%;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.game-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.next-ting{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.game-card{
+    background-color: var(--hover-bg);
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.game-card:hover{
+    transform: scale(1.05);
+}
+
+.game-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.game-info{
+    padding: 10px;
+    text-align: center;
+}
+
+.rating .star{
+    color:var(--star-color);
+    font-size: 20px;
+}
+
+.rating .star .active{
+    color: var(--star-active-color);
+}
+
+.theme-toggle{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content{
+    color: var(--text-primary);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.footer-container{
+    display: grid;
+    text-align: center;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease-in;
+}
+.github:hover{
+    transform: scale(1.1);
+}
