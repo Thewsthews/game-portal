@@ -15,7 +15,7 @@ Game Explorer is an interactive web application designed to help users discover,
 
 ![Screenshot from 2025-01-29 17-03-35](https://github.com/user-attachments/assets/d52c248d-4877-44cb-9ea5-5e4849677555)
 
-## Technologies Used
+## Technologies Used 🔧
 
 - **PHP**: Backend server-side scripting to handle game data and search functionality.
 - **CSS**: Styling for the web interface, making the application visually appealing and responsive.
