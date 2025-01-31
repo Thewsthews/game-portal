@@ -21,7 +21,7 @@ Game Explorer is an interactive web application designed to help users discover,
 - **CSS**: Styling for the web interface, making the application visually appealing and responsive.
 - **JavaScript**: Client-side interactivity, including dynamic search and filter options.
 
-## Installation
+## Installation 🔩
 
 ### Prerequisites
 
