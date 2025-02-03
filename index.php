@@ -1,9 +1,9 @@
 <?php
 $categories = [
     'first_person_shooters' => [
-        ['name' => 'Counter-Strike 2', 'image' => 'cs2.jpg', 'description' => 'Tactical team-based shooter', 'rating' => 4.8],
-        ['name' => 'Call of Duty: WWII', 'image' => 'wwii.jpg', 'description' => 'Battle royale combat', 'rating' => 4.5],
-        ['name' => 'Valorant', 'image' => 'valorant.jpg', 'description' => 'Competitive tactical shooter', 'rating' => 4.7]
+        ['name' => 'Counter-Strike 2', 'image' => 'cs2.jpg', 'description' => 'Redefines tactical gameplay with stunning visuals, revamped mechanics, and the ultimate test of skill and strategy—get ready to dominate the battlefield!', 'rating' => 4.8],
+        ['name' => 'Call of Duty: WWII', 'image' => 'wwii.jpg', 'description' => 'Drops you into the intense battles of World War II with a gripping campaign, epic multiplayer, and a chilling Nazi Zombies mode.', 'rating' => 4.5],
+        ['name' => 'Valorant', 'image' => 'valorant.jpg', 'description' => 'Tactical first-person shooter developed by Riot Games, blending precise gunplay with unique character abilities in a competitive 5v5 format', 'rating' => 4.7]
     ],
     'racing_games' => [
         ['name' => 'Forza Horizon 5', 'image' => 'forza.jpg', 'description' => 'Open-world racing adventure', 'rating' => 4.9],
@@ -115,7 +115,7 @@ $categories = [
                     </div>
                 <?php endforeach; ?>
             </div>
-        </div>       
+        </div>      
         <div id="game-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
@@ -127,10 +127,10 @@ $categories = [
         <h3>M1</h3>
         <div class="social-links">
       <a href="https://twitter.com/BookofT_" target="_blank" aria-label="Twitter">
-        <img src="twitter-icon.svg" alt="Twitter">
+        <img src="images/tt.jpg" alt="Twitter" class="github">
       </a>
-      <a href="https://www.github.com/Thewsthews" target="_blank" aria-label="Github">
-        <img src="github-icon.svg" alt="Github">
+      <a href="https://www.github.com/Thewsthews" target="_blank" aria-label="GitHub">
+        <img src="images/part2.jpg" alt="GitHub" class="github">
       </a>
     </div>
     <div class="footer-container">

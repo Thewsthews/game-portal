@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "PHP Web Server",
+      "type": "php",
+      "request": "launch",
+      "port": 8000,
+      "pathMappings": {
+        "/": "${workspaceFolder}/"
+      },
+      "server": "http://localhost:8000"
+    }
+  ]
+}

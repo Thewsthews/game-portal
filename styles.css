@@ -143,7 +143,16 @@ body{
     text-align: center;
 }
 .social-links{
-    display: grid;
-    text-align: center;
-    grid-template-rows: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+    transition: 0.3s ease-in;
+}
+.github:hover{
+    transform: scale(1.1);
 }
