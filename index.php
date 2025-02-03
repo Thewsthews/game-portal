@@ -115,7 +115,7 @@ $categories = [
                     </div>
                 <?php endforeach; ?>
             </div>
-        </div>      
+        </div>   
         <div id="game-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
