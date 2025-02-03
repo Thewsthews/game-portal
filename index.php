@@ -115,13 +115,35 @@ $categories = [
                     </div>
                 <?php endforeach; ?>
             </div>
-        </div>   
-        <div id="game-modal" class="modal">
+        </div>  
+    </div>
+
+    <div class="game-container">
+        <div class = "category indie games">
+            <h2>Indie Games</h2>
+            <div class ="next-ting">
+                <?php foreach($categories['indie_games'] as $game): ?>
+                    <div class="game-card" data-name="<?= $game['name'] ?>">
+                        <img src="images/<?= $game['image'] ?>" alt="<?= $game['name'] ?>">
+                        <div class="game-info">
+                            <h3><?= $game['name'] ?></h3>
+                            <p><?= $game['description'] ?></p>
+                            <div class="rating">
+                                <?php for($i = 1; $i <= 5; $i++): ?>
+                                    <span class="star <?= $i <= $game['rating'] ? 'active' : '' ?>">★</span>
+                                <?php endfor; ?>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+         </div>  
+    </div>
+    <div id="game-modal" class="modal">
         <div class="modal-content">
             <span class="close-modal">&times;</span>
             <div id="modal-details"></div>
         </div>
-    </div>
 </div>
     <footer class="footer">
         <h3>M1</h3>
