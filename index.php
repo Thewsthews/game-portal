@@ -24,7 +24,7 @@ $categories = [
     'indie_games' => [
         ['name' => 'Hades', 'image' => 'hades.jpg', 'description' => 'Roguelike dungeon crawler that combines fast-paced action with rich storytelling, challenging you to escape the Underworld and defy the god of the dead.', 'rating' => 4.9],
         ['name' => 'Celeste', 'image' => 'celeste.png', 'description' => 'A narrative-driven platformer that follows a young man in an open world, solving puzzles and battling enemies to save his sister.', 'rating' => 4.8],
-        ['name' => 'Dead Cells', 'image' => 'dc.jpg', 'description' => 'Roguelike Metroidvania action platformer that challenges you to explore a sprawling, ever-changing castle, battle fearsome creatures, and uncover hidden secrets.', 'rating' => 4.7]
+        ['name' => 'Disco Elysium', 'image' => 'dc.jpg', 'description' => 'A mystery solving game that takes place in a water-colored urban style gaming', 'rating' => 4.7]
     ]
 ];
 ?>
