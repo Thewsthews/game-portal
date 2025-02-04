@@ -21,6 +21,11 @@ $categories = [
         ,'rating' => 4.9],
         ['name' => 'Dying Light', 'image' => 'dl.jpg', 'description' => 'Action-packed survival horror game that combines parkour movement with intense combat against hordes of zombies in a sprawling open-world setting', 'rating' => 4.5]
     ],
+    'indie_games' => [
+        ['name' => 'Hades', 'image' => 'hades.jpg', 'description' => 'Roguelike dungeon crawler that combines fast-paced action with rich storytelling, challenging you to escape the Underworld and defy the god of the dead.', 'rating' => 4.9],
+        ['name' => 'Celeste', 'image' => 'celeste.jpg', 'description' => 'A narrative-driven platformer that follows a young man in an open world, solving puzzles and battling enemies to save his sister.', 'rating' => 4.8],
+        ['name' => 'Dead Cells', 'image' => 'dc.jpg', 'description' => 'Roguelike Metroidvania action platformer that challenges you to explore a sprawling, ever-changing castle, battle fearsome creatures, and uncover hidden secrets.', 'rating' => 4.7]
+    ]
 ];
 ?>
 
@@ -119,7 +124,7 @@ $categories = [
     </div>
 
     <div class="game-container">
-        <div class = "category indie games">
+        <div class = "category indie_games">
             <h2>Indie Games</h2>
             <div class ="next-ting">
                 <?php foreach($categories['indie_games'] as $game): ?>
@@ -156,7 +161,7 @@ $categories = [
       </a>
     </div>
     <div class="footer-container">
-            <p>2024 TT All Rights Reserved</p>
+            <p>2024 M1 All Rights Reserved</p>
         </div>
     </footer>
 </body>
