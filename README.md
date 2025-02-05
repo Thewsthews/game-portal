@@ -60,7 +60,7 @@ Ensure you have the following installed:
 - **Explore**: Browse game categories or click on game titles to view detailed information.
 - **Recommendations**: Based on your search history, you’ll receive game suggestions to enhance your discovery experience.
 
-## Contributing
+## Contributing 🤝🏾
 
 If you’d like to contribute to the development of Game Explorer, feel free to fork the repository and submit a pull request.
 
