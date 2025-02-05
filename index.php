@@ -161,7 +161,7 @@ $categories = [
       </a>
     </div>
     <div class="footer-container">
-            <p>2024 M1 All Rights Reserved</p>
+           <p>2025 M1 All Rights Reserved</p>
         </div>
     </footer>
 </body>
