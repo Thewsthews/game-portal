@@ -13,7 +13,8 @@
     --card-bg: #1e1e1e;
     --hover-bg: #2c2c2c;
     --star-color: #555;
-    --star-active-color: #ffd700;
+   --star-active-color: #ffd700;
+   transition: baclground-color 0.3s ease-in;
 }
 
 *{
