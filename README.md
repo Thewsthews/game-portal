@@ -54,7 +54,7 @@ Ensure you have the following installed:
 
 5. Open your browser and visit `http://localhost:3000` to start exploring games!
 
-## Usage
+## Usage ⚙️
 
 - **Search**: Enter a game title, genre, or platform in the search bar to discover your next favorite game.
 - **Explore**: Browse game categories or click on game titles to view detailed information.
