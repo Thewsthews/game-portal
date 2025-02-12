@@ -36,8 +36,8 @@ Ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/game-explorer.git
-    cd game-explorer
+    git clone https://github.com/Thewsthews/game-portal.git
+    cd game-portal
     ```
 
 2. Set up your web server (e.g., Apache) to point to the `public` directory of the project.
@@ -52,7 +52,7 @@ Ensure you have the following installed:
       php -S localhost:8000
       ```
 
-5. Open your browser and visit `http://localhost:3000` to start exploring games!
+5. Open your browser and visit `http://localhost:8000` to start exploring games!
 
 ## Usage ⚙️
 
